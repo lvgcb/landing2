@@ -1,0 +1,138 @@
+    /* Общие стили */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #121212;
+        color: #fff;
+        text-align: center;
+    }
+
+    /* Навбар */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #1E1E1E;
+    }
+
+    .nav-links a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 15px;
+    }
+
+    .login-btn {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* Герой-секция */
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px;
+    }
+
+    .hero-text {
+        max-width: 50%;
+        text-align: left;
+    }
+
+    .hero-image {
+        width: 50%;
+    }
+
+    .search-team-btn {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* Инновационная секция */
+    .innovation {
+        background-color: #1E1E1E;
+        padding: 50px 20px;
+    }
+
+    .register-btn {
+        background-color: #28a745;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* Новости */
+    .news {
+        padding: 50px 20px;
+    }
+
+    .news-grid {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .news-item {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px;
+        width: 30%;
+    }
+
+    .read-more-btn {
+        background-color: #ff9800;
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* Подписка */
+    .subscription {
+        background-color: #2C2C2C;
+        padding: 50px 20px;
+    }
+
+    .subscription-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .email-input {
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        width: 250px;
+    }
+
+    .subscribe-btn {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* Подвал */
+    .footer {
+        background-color: #1E1E1E;
+        padding: 20px;
+    }
+    
