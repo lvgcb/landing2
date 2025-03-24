@@ -135,4 +135,6 @@
         background-color: #1E1E1E;
         padding: 20px;
     }
-    
+    a{
+        text-decoration: none;
+    }
